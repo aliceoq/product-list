@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid gray;
+  padding: 8px;
+  width: 500px;
+  gap: 12px;
+}
+
+.tile-container {
+  display: flex;
+  gap: 12px;
+}
+
+.price-container {
+  position: relative;
+  display: flex;
+  column-gap: 8px;
+}
+
+.retail-price {
+  position: absolute;
+  top: -10px;
+  left: 50px;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.details-button {
+  cursor: pointer;
+  background-color: #95d46b;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  height: max-content;
+  min-width: 100px;
+}
